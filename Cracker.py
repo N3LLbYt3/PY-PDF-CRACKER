@@ -23,7 +23,7 @@ def print_banner():
 ╚═╝        ╚═╝       ╚═╝     ╚═════╝ ╚═╝          ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
                     v2.0
 
-                Developer : Bardia Ghassemi
+                Auther : Bardia Ghassemi
                                                                                                                                                                                                                 
         '''
 
