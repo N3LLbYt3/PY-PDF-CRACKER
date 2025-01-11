@@ -82,19 +82,19 @@ PY-PDF-CRACKER یک ابزار خط فرمان است نه یک نرم افزا�
 ### 📢 کاربران ویندوز
 
 ```
-1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
-2. cd PDF-Cracker
-3. pip install -r requires.txt
-4. python Cracker.py -h
+git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+cd PDF-Cracker
+pip install -r requires.txt
+python Cracker.py -h
 ```
 
 ### 📢 کاربران لینوکس
 
 ```
-1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
-2. cd PDF-Cracker
-3. pip3 install -r requires.txt
-4. python3 Cracker.py -h
+git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+cd PDF-Cracker
+pip3 install -r requires.txt
+python3 Cracker.py -h
 ```
 
 #### ⚙️ اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
