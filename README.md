@@ -109,5 +109,5 @@ python3 Cracker.py -h
 
 # 🙃 Example مثال
 ## این مثال باید بعد از نصب ابزار صورت بگیرد !!!
-## This Example Used After Install The Tool
+## This Example Used After Install The Tool !!!
 https://github.com/user-attachments/assets/f1eab1f8-18aa-4b2f-aed4-bcb59cc9dae9
