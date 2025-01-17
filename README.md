@@ -84,7 +84,7 @@ PY-PDF-CRACKER یک ابزار خط فرمان است نه یک نرم افزا�
 ```
 git clone https://github.com/bardiaghassemi/PDF-Cracker.git
 cd PDF-Cracker
-pip install -r requires.txt
+pip install -r requirements.txt
 python Cracker.py -h
 ```
 
@@ -93,7 +93,7 @@ python Cracker.py -h
 ```
 git clone https://github.com/bardiaghassemi/PDF-Cracker.git
 cd PDF-Cracker
-pip3 install -r requires.txt
+pip3 install -r requirements.txt
 python3 Cracker.py -h
 ```
 
