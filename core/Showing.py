@@ -10,7 +10,7 @@ def print_success(message):
 
 
 def print_info(message):
-    print(Fore.LIGHTMAGENTA_EX + "[*]" + message + Fore.RESET)
+    print(Fore.LIGHTMAGENTA_EX + "[i]" + message + Fore.RESET)
 
 
 def print_warning(message):
