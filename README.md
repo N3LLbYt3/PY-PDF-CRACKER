@@ -112,5 +112,5 @@ python3 Cracker.py -h
 ## This Example Used After Install The Tool !!!
 https://github.com/user-attachments/assets/f1eab1f8-18aa-4b2f-aed4-bcb59cc9dae9
 
-### ✔️ فایل اجرایی
-## لینک فایل اجرایی : 
+## ✔️ فایل اجرایی
+### لینک فایل اجرایی : https://s33.picofile.com/file/8483562934/Cracker.exe.html
