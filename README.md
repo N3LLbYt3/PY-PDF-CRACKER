@@ -18,6 +18,8 @@
 
 # 🎯 ENGLISH 
 
+### The Developer of This Tool Does Not Take Any Responsibility For Your Improper Use of This Tool And is Only Providing This Tool To Raise Your Awareness of How To Do This.
+
 ### 📌 WHAT IS CRACKING ??
 
 Cracking is a fast way to find passwords in services, which is also used in most of them. In this method, the power and speed of computers are used to find passwords and by trying millions of passwords on the target service.
