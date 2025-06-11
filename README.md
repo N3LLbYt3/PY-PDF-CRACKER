@@ -34,7 +34,7 @@ PY-PDF-CRACKER is A Command Line Tool Not A Software, Developers Can Use This Fo
 ### 📢 WINDOWS USERS
 
 ```
-git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+git clone https://github.com/N3LLbYt3/PY-PDF-CRACKER.git
 cd PDF-Cracker
 pip install -r requirements.txt
 python Cracker.py -h
@@ -43,7 +43,7 @@ python Cracker.py -h
 ### 📢 LINUX USERS
 
 ```
-git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+git clone https://github.com/N3LLbYt3/PY-PDF-CRACKER.git
 cd PDF-Cracker
 pip3 install -r requirements.txt
 python3 Cracker.py -h
@@ -84,7 +84,7 @@ PY-PDF-CRACKER یک ابزار خط فرمان است نه یک نرم افزا�
 ### 📢 کاربران ویندوز
 
 ```
-git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+git clone https://github.com/N3LLbYt3/PY-PDF-CRACKER.git
 cd PDF-Cracker
 pip install -r requirements.txt
 python Cracker.py -h
@@ -93,7 +93,7 @@ python Cracker.py -h
 ### 📢 کاربران لینوکس
 
 ```
-git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+git clone https://github.com/N3LLbYt3/PY-PDF-CRACKER.git
 cd PDF-Cracker
 pip3 install -r requirements.txt
 python3 Cracker.py -h
