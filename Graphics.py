@@ -100,25 +100,17 @@ class Program(tkinter.Tk):
                     else:
                         passwordliste = True
 
-                    if PDF_File[-4:] != '.pdf':
-                        startagain = False
-                        messagebox.showerror("Error", "This File isn't A PDF File")
-                        sys.exit()
-
                     try:
                         open(PDF_File)
                     except FileNotFoundError:
                         startagain = False
                         messagebox.showerror("Error", "PDF File Not Found")
-                        sys.exit()
-
-                    if passwordliste:
-                        try:
-                            passwordlist = open(Password_File)
-                        except FileNotFoundError:
-                            startagain = False
-                            messagebox.showerror("Error", "Password File Not Found")
-                            sys.exit()
+                        sys.exit(0)
+                    
+                    if PDF_File[-4:] != '.pdf':
+                        startagain = False
+                        messagebox.showerror("Error", "This File isn't A PDF File")
+                        sys.exit(0)
 
                     def check_pass_need():
                         try:
@@ -129,6 +121,14 @@ class Program(tkinter.Tk):
                             pass
 
                     check_pass_need()
+
+                    if passwordliste:
+                        try:
+                            passwordlist = open(Password_File)
+                        except FileNotFoundError:
+                            startagain = False
+                            messagebox.showerror("Error", "Password File Not Found")
+                            sys.exit(0)
 
                     def remove_password(password):
                         reader = PdfReader(PDF_File)
@@ -180,7 +180,7 @@ class Program(tkinter.Tk):
                                 ASK = messagebox.askyesno("Remove Password", "Do you want to Remove Password?")
                                 if ASK is True:
                                     remove_password(password)
-                                sys.exit()
+                                sys.exit(0)
                             except pikepdf._core.PasswordError:
                                 passtry += 1
                                 print(Fore.RED, f"\b[*] {passtry:,} Password Tesded.", Fore.RESET, end='\r', sep='')
@@ -195,7 +195,7 @@ class Program(tkinter.Tk):
                 main(self.textbox.get(), self.textbox2.get())
             except KeyboardInterrupt:
                 messagebox.showwarning("Exit", "You Exiting From Tool Bye !!!")
-                sys.exit()
+                sys.exit(0)
 
         else:
             messagebox.showinfo("Do Not Click", "Please Do Not Click Again This Option is Set !!!")
